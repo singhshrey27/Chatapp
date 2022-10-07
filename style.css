@@ -1,0 +1,62 @@
+.logo{
+    display: block;
+    margin: auto;
+    width :100px;
+    height: 100px;
+}
+body{
+    background-color: rgb(92, 208, 223);
+    /* background-image: url(backgroundimg.jpg); */
+}
+.container{
+    max-width: 955px;
+    max-height: 600px;
+    background-color: rgb(9, 33, 33);
+    margin: auto;
+    height: 60vh;
+    border-radius:15px ;
+}
+    
+.message{
+    background-color: rgb(171, 223, 116);
+    border: 2px solid blanchedalmond;
+    padding :10px;
+    margin: 17px 12px;
+    border-radius: 10px;
+}
+    
+.right{
+    float: right;
+    clear : both;
+
+
+}
+.left{
+    float: left;
+    clear : both;
+
+}
+.btn{
+    margin:auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+#messageInfo{
+    border-radius: 5px;
+    width :57%;
+    border: 2px solid black;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+    /* when there are so many messages in the application it will move in the y direction */    
+}
+.send{
+    display: block;
+    /* The display CSS property sets whether an element is treated as a block or inline element 
+    and the layout used for its children, such as flow layout, grid or flex. */
+    margin: auto;
+    text-align:center;
+    
+    /* max-width: 945px; */
+    /* width: 100px; */
+}
